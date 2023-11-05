@@ -1,4 +1,35 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-npx --no-install lint-staged
+# npx --no-install lint-staged
+echo 'Styling, testing and building your project before committing'
+yarn lint-staged && yarn test
+
+
+# # check tsconfig standard
+# yarn check-types || 
+# (
+#     echo 'Failed to check in check-types'
+#     false;
+# )
+# # check prettier standard
+# yarn check-format || 
+# (
+#     echo 'Failed to check in check-format'
+#     false;
+# )
+# # check ESlint standard
+# yarn check-lint || 
+# (
+#     echo 'Failed to check in check-lint'
+#     false;
+# )
+# echo 'Code looks good, trying to build now.'
+# # check build
+# yarn build || 
+# (
+#     echo 'Failed to Build'
+#     false;
+# )
+
+echo 'Successfully checked and passed tests, committing now'
