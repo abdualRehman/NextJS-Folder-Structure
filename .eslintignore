@@ -9,3 +9,5 @@ build
 .next
 **/*.mdx
 **/*.png
+dist
+coverage

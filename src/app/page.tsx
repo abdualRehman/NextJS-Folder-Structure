@@ -8,7 +8,9 @@ export default function Home() {
     <S.Wrapper>
       <Main />
       <h1>Next 13 boilerplate</h1>
-      <h1>Next 14 Test 1</h1>
+      <h1>Next 14 Test 3 testing </h1>
+      <h1>Next 14 Test 3 testing </h1>
+      <h1>Next 14 Test 3 testing </h1>
       <h1>Next 13 boilerplate</h1>
       <h1>Next 14 boilerplate</h1>
       <h1>Next 13 boilerplate</h1>
